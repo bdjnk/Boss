@@ -1,0 +1,13 @@
+@import 'utils/modular-scale';
+
+$ms-base: 1em;
+$ms-ratio:1.414;
+
+@import 'imports/fonts';
+
+body {
+	font-size: ms(0);
+	font-family: 'lato';
+	font-weight: normal;
+	font-style: normal;
+}

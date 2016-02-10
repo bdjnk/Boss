@@ -1,0 +1,12 @@
+name = "boss"
+license = "MIT"
+licenselink = "https://github.com/bdjnk/boss/blob/master/LICENSE.md"
+description = ""
+homepage = "http://michael.plotke.me/boss"
+tags = ["blog", "personal"]
+features = ["blog"]
+min_version = 0.14
+
+[author]
+  name = "Michael Plotke"
+  homepage = "http://michael.plotke.me/"

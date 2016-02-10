@@ -1,0 +1,10 @@
+{{partial "foot.html" .}}
+	{{range where .Data.Pages "Section" "post"}}
+		<h2>
+			<a href="{{.Permalink}}">
+				{{.Title}}
+			</a>
+		</h2>
+		<p>{{.Summary}}</p>
+	{{end}}
+{{partial "foot.html" .}}
